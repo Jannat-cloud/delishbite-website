@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DelishBite — Purple & Pink BBQ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#"><img src="assets/images/logo.png" alt="logo" class="logo"> <span>DelishBite</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+      <ul class="nav-links">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero container">
+      <div class="hero-left">
+        <h1 class="headline"><span class="text-anim">Sizzling BBQ</span> & <span class="accent">Gourmet Flavors</span></h1>
+        <p class="lead">Experience bold smoky tastes, handcrafted with seasonal ingredients. Delivered hot — or enjoy in our dining room.</p>
+        <div class="hero-cta">
+          <a href="#menu" class="btn btn-primary">Explore Menu</a>
+          <a href="#contact" class="btn btn-outline">Reserve a Table</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-visual">
+          <img src="assets/images/hero_bbq.jpg" alt="BBQ Steak">
+          <div class="hero-overlay"></div>
+          <div class="hero-card">
+            <h4>Signature Ribs</h4>
+            <p>Slow-smoked • Sticky glaze</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section id="menu" class="section container">
+      <h2 class="section-title">Our Menu</h2>
+      <p class="section-sub">Best of BBQ, grilled specials, and chef-crafted dishes</p>
+      <div class="cards">
+        <article class="food-card reveal">
+          <div class="img-wrap"><img src="assets/images/bbq_ribs.jpg" alt="BBQ ribs"></div>
+          <div class="card-body"><h3>Smoked Ribs</h3><p>Slow-cooked ribs with smoky BBQ glaze.</p><div class="price">₹699</div></div>
+        </article>
+        <article class="food-card reveal">
+          <div class="img-wrap"><img src="assets/images/steak.jpg" alt="Grilled steak"></div>
+          <div class="card-body"><h3>Grilled Steak</h3><p>Charred to perfection with herb butter.</p><div class="price">₹899</div></div>
+        </article>
+        <article class="food-card reveal">
+          <div class="img-wrap"><img src="assets/images/burger.jpg" alt="Burger"></div>
+          <div class="card-body"><h3>Smoky Burger</h3><p>Angus patty, smoked cheddar, house sauce.</p><div class="price">₹399</div></div>
+        </article>
+        <article class="food-card reveal">
+          <div class="img-wrap"><img src="assets/images/skewers.jpg" alt="Grilled skewers"></div>
+          <div class="card-body"><h3>Grilled Skewers</h3><p>Mixed meats and veggies, smoky marinade.</p><div class="price">₹349</div></div>
+        </article>
+        <article class="food-card reveal">
+          <div class="img-wrap"><img src="assets/images/pasta.jpg" alt="Pasta"></div>
+          <div class="card-body"><h3>Smoky Pasta</h3><p>Smoked chicken, creamy sauce, parmesan.</p><div class="price">₹449</div></div>
+        </article>
+        <article class="food-card reveal">
+          <div class="img-wrap"><img src="assets/images/dessert.jpg" alt="Dessert"></div>
+          <div class="card-body"><h3>Grilled Pineapple</h3><p>Caramelized pineapple with cinnamon glaze.</p><div class="price">₹199</div></div>
+        </article>
+      </div>
+    </section>
+    <section id="about" class="section about container reveal">
+      <div class="about-grid">
+        <div class="about-media"><img src="assets/images/chef.jpg" alt="chef grilling"></div>
+        <div class="about-content"><h2>About DelishBite</h2><p>DelishBite serves bold, smoky flavors with a modern twist. Our BBQ techniques take inspiration from global traditions while keeping presentation contemporary and vibrant in purple & pink hues.</p><ul class="features"><li><i class="fa fa-fire"></i> Real wood smoke</li><li><i class="fa fa-seedling"></i> Fresh local produce</li><li><i class="fa fa-stopwatch"></i> Slow-smoked perfection</li></ul></div>
+      </div>
+    </section>
+    <section id="contact" class="section contact container reveal">
+      <h2>Contact & Reservations</h2>
+      <div class="contact-grid">
+        <form class="contact-form" action="#" onsubmit="return false;"><div class="field-row"><input type="text" placeholder="Your name" required><input type="email" placeholder="Email address" required></div><input type="text" placeholder="Subject"><textarea placeholder="Your message" rows="5"></textarea><div class="form-actions"><button class="btn btn-primary">Send Message</button><button class="btn btn-outline">Call Us</button></div></form>
+        <div class="contact-info"><div class="info-item"><i class="fa fa-map-marker-alt"></i><p>123 Flavor Street, Foodie City</p></div><div class="info-item"><i class="fa fa-phone"></i><p>+1 234 567 890</p></div><div class="info-item"><i class="fa fa-envelope"></i><p>contact@delishbite.com</p></div><div class="socials"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-twitter"></i></a></div></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container"><p>&copy; 2025 DelishBite — Purple Smoke Co.</p></div></footer>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
